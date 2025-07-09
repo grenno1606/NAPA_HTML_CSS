@@ -110,7 +110,10 @@
     </section>
 
     <section class="benefits">
-      <img class="benefits__background" src="./asset/images/benefits_background.png" alt="benefits background image">
+      <picture class="benefits__background">
+        <source srcset="./asset/images/benefits_background_desktop.png" media="(min-width: 768px)">
+        <img src="./asset/images/benefits_background_mobile.png" alt="benefits background image">
+      </picture>
       <div class="benefits__content box">
         <h2 class="benefits__title">Test Yönetimiyle Neler Sağlıyoruz?</h2>
         <p class="benefits__subtitle font--sm">IoT Destekli Çözümler</p>
