@@ -36,9 +36,10 @@ The goal is to convert the entire Figma design into a responsive web page using 
    - Only HTML and CSS are allowed.
 
 ## 📁 Folder Structure
-
+```
 NAPA_HTML_CSS/
 ├── assets/         # Images and exported assets from Figma or placeholders
 ├── css/            # CSS files (using BEM apply 7-1 pattern)
 ├── index.html      # Main HTML file
 └── README.md       # Project documentation
+```
