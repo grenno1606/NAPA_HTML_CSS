@@ -1,0 +1,14 @@
+.button {
+  font-size: 14px;
+  font-weight: 600px;
+  line-height: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 0;
+}
+
+.button--primary {
+  background-color: var(--primary-color);
+  color: white;
+}

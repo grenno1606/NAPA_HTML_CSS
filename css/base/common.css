@@ -1,0 +1,15 @@
+.box {
+  padding: 60px 20px;
+}
+
+@media (min-width: 768px) {
+  .box {
+    padding: 46px 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .box {
+    padding: 60px 122px;
+  }
+}

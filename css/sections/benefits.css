@@ -1,0 +1,48 @@
+.benefits {
+  position: relative;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.benefits__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  mix-blend-mode: lighten;
+}
+
+.benefits__subtitle {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.benefits__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .benefits__list {
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .benefits__subtitle {
+    font-size: 18px;
+  }
+
+  .benefits__text {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1400px) {
+  .benefits__list {
+    gap: 60px;
+  }
+}

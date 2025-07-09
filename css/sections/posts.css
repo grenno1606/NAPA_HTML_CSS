@@ -1,0 +1,13 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+@media (min-width: 768px) {
+  .posts {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    gap: 120px;
+  }
+}

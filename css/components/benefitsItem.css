@@ -1,0 +1,30 @@
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .benefits__item {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .benefits__text {
+    font-size: 14px;
+    line-height: 21.5px;
+    font-weight: 700px;
+  }
+
+  .benefits__icon {
+    transform: rotate(-90deg);
+    width: 28px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .benefits__item {
+    gap: 60px;
+  }
+}
