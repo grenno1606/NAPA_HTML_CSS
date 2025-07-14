@@ -4,10 +4,6 @@
   gap: 30px;
 }
 
-/* .post--reverse {
-  flex-direction: column-reverse;
-} */
-
 .post__description {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -29,6 +25,11 @@
     justify-content: space-between;
   }
 
+  .post__content {
+    display: flex;
+    flex-direction: column;
+  }
+
   .post:nth-child(1) {
     flex-direction: row-reverse;
   }
@@ -46,8 +47,9 @@
   }
 
   .post__button {
-    width: auto;
+    margin-top: auto;
     padding: 12px 58px;
+    width: fit-content;
   }
 }
 
