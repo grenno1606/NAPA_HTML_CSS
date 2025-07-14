@@ -12,7 +12,8 @@ This project is for practicing HTML and CSS based on a Figma design as part of t
 
 ## 📝 Overview
 
-The goal is to convert the entire Figma design into a responsive web page using only HTML5 and CSS3, following BEM naming conventions. No SCSS, JavaScript, or UI libraries are used.
+- The goal is to convert the entire Figma design into a responsive web page using only HTML5 and CSS3, following BEM naming conventions. No SCSS, JavaScript, or UI libraries are used.
+- Design: [Responsive Web Page (Figma)](https://www.figma.com/design/AeGFigVeAa6q1PmQ48V7P2/Responsive-Web-Page-%F0%9F%8E%89--Community-?node-id=0-1&t=zsldFUSDpyMQlrbP-1)
 
 ## 🚀 Requirements
 
